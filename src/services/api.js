@@ -2,7 +2,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://marca-backend.onrender.com/",
+//   baseURL: "https://marca-backend.onrender.com/",
+  baseURL: "https://diegoramos13.pythonanywhere.com/",
 });
 
 export const getBrands = () => api.get("/brands/");
